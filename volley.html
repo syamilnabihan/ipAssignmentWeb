@@ -9,34 +9,39 @@
 </head>
 
 <body>
-  <div class="logo"><a href="#"><img src="images/juplogo150px.png"></a>
+  <div class="logo"><a href="index.html"><img src="images/juplogo150px.png"></a>
   </div>
   <nav>
     <ul>
-      <li><a href="index.html">Home</a</li>
-      <li><a href="#">Volleyball</a</li>
-      <li><a href="">Futsal</a</li>
-      <li><a href="">Badminton</a</li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Volleyball</a></li>
+      <li><a href="futsal.html">Futsal</a></li>
+      <li><a href="badminton.html">Badminton</a></li>
     </ul>
     
   </nav>
-  <div class="image-grid">
-    <img src="images/volleyball/1.JPG" alt="">
-    <img src="images/volleyball/2.JPG" alt="">
-    <img src="images/volleyball/3.JPG" alt="">
-    <img src="images/volleyball/4.JPG" alt="">
-    <img src="images/volleyball/5.JPG" alt="">
-    <img src="images/volleyball/6.JPG" alt="">
-    <img src="images/volleyball/7.JPG" alt="">
-    <img src="images/volleyball/8.JPG" alt="">
-    <img src="images/volleyball/9.JPG" alt="">
-    <img src="images/volleyball/10.JPG" alt="">
-    <img src="images/volleyball/11.JPG" alt="">
-    <img src="images/volleyball/12.JPG" alt="">
-    <img src="images/volleyball/13.JPG" alt="">
-    <img src="images/volleyball/14.JPG" alt="">
-    <img src="images/volleyball/15.JPG" alt="">
-    <img src="images/volleyball/16.JPG" alt="">
+  <div class="full-image" id="fullImgBox">
+    <img src="images/volleyball/1.JPG" id="fullImg">
+    <span onclick="closeFullImg()">X</span>
+  </div>
+
+  <div class="image-gallery">
+    <img src="images/volleyball/1.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/2.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/3.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/4.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/5.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/6.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/7.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/8.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/9.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/10.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/11.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/12.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/13.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/14.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/15.JPG" onclick="openFullImg(this.src)">
+    <img src="images/volleyball/16.JPG" onclick="openFullImg(this.src)">
   
   </div>
 
